@@ -57,5 +57,5 @@ linprog(c, A, b, bounds=((0,None), (0, None)),options={"disp":True})
      * Maximize expected return
    * Constraints
      * Must be linear equalities or inequalities
-     * > or < are not permitted
+     * \> or < are not permitted
   
