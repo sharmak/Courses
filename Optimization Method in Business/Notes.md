@@ -43,18 +43,13 @@ https://www.edx.org/course/optimization-methods-business-analytics-mitx-15-053x
         * Time is 60 minutes 2*x + 5*y <= 60
         * x >=0 , y >= 0  [ Non nagativity Constraints ]
         * x is integer, y is integer [Integrality Contraints ]
-     * Python
+     * Code
 ``` python
 from scipy.optimize import linprog
 A = np.array([[2, 5]])
-import numpy as np
-A = np.array([[2, 5]])
 c = np.array([4,5])
 b = np.array([60])
-linprog(c, A, b)
-linprog(c, A, b, options={"disp":True})
 linprog(c, A, b, bounds=((0,None), (0, None)),options={"disp":True})
-linprog(-c, A, b, options={"disp":True})
 ```
      
   
