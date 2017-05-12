@@ -51,5 +51,11 @@ c = np.array([4,5])
 b = np.array([60])
 linprog(c, A, b, bounds=((0,None), (0, None)),options={"disp":True})
 ```
-     
+ * Optimization Paradigm
+   * Objective function
+     * Minimize cost or 
+     * Maximize expected return
+   * Constraints
+     * Must be linear equalities or inequalities
+     * > or < are not permitted
   
