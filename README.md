@@ -1,2 +1,2 @@
 # Courses
-Online Courses
+Online courses notes
