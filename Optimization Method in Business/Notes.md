@@ -13,8 +13,14 @@ https://www.edx.org/course/optimization-methods-business-analytics-mitx-15-053x
   * Real world problem to mathematical model
 * When an optimization model is useful in practice ? 
   * All models are wrong but some are useful (George Box)
- * Application 
+* Application 
    * Marketing
    * Finance
    * Many more
+* Optimization Problem
+  * Given a collection of numbers partition them inot two groups such that the difference in the sums as small as possible.
+  * Example 7, 10, 13, 17, 20, 22
+     * {7, 17, 20} {10, 13, 22}
+  * Exercise {1,2,4,8,16, 32} 
+     * Best Parition {1,2,4,8,16} {32}
   
