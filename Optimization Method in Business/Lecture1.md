@@ -58,4 +58,9 @@ linprog(c, A, b, bounds=((0,None), (0, None)),options={"disp":True})
    * Constraints
      * Must be linear equalities or inequalities
      * \> or < are not permitted
+ * Non Linear Optimization Problems
+   * Objective function does not need to be linear
+   * Constraints doesn't need to be linear
+   * Example max 9v + 13w st v*w <= 10 v >= 0 w > 0 
+   * Non linear programs are harder to solve 
   
