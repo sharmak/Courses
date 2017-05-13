@@ -63,4 +63,17 @@ linprog(c, A, b, bounds=((0,None), (0, None)),options={"disp":True})
    * Constraints doesn't need to be linear
    * Example max 9v + 13w st v*w <= 10 v >= 0 w > 0 
    * Non linear programs are harder to solve 
-  
+ 
+ * Optimization Tricks
+  * Absolute constraints
+    * We now know how to transform constraints of the form |ax+by| <= c. We convert them into two constraints
+    * We can use the same logic for |ax+by|>= c as the region for the contraints becomes non convex which can't be solved by LP as the feasbile region must be a bounded area.
+  * Max Min constraints
+    * Max min {50x1, 25x2, 20x3, 14x4}
+    * Add new constraints Max {z} with constraints z <= 50x1 z <= 25x2  z <= 20x3 z <= 14x4
+    * We can use the Min max problems as well 
+  * Ratio Constraints
+    * Idea is to use the denominator and convert the equation to linear equation.
+    
+    
+
